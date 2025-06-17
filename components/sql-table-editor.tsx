@@ -11,9 +11,9 @@ import { SaveQueryDialog } from "./save-query-dialog"
 import { QueryResult } from "./query-result"
 import { TableView } from "./table-view"
 import { TableCreator } from "./table-creator"
-import { toast } from "@/components/ui/use-toast"
-import { Button } from "@/components/ui/button"
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+import { toast } from "../components/ui/use-toast"
+import { Button } from "../components/ui/button"
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "../components/ui/tabs"
 
 export default function SQLTableEditor() {
   const [tables, setTables] = useState({})

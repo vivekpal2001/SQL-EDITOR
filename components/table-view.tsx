@@ -1,8 +1,8 @@
 "use client"
 
 import { Database } from "lucide-react"
-import { Button } from "@/components/ui/button"
-import { Skeleton } from "@/components/ui/skeleton"
+import { Button } from "../components/ui/button"
+import { Skeleton } from "../components/ui/skeleton"
 
 export function TableView({ tables, isLoading, onDeleteTable, onQueryTable, selectedDialect }) {
   if (isLoading) {
