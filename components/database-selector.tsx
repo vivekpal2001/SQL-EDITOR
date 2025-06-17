@@ -1,6 +1,6 @@
 "use client"
 
-import { dialectConfigs } from "@/lib/sql-config"
+import { dialectConfigs } from "../lib/sql-config"
 
 export function DatabaseSelector({ selectedDialect, onDialectChange }) {
   return (

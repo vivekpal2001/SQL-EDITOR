@@ -1,4 +1,4 @@
-import SQLTableEditor from "@/components/sql-table-editor"
+import SQLTableEditor from "../components/sql-table-editor"
 
 export default function Home() {
   return (

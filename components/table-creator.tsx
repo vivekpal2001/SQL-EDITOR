@@ -6,8 +6,8 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { Slider } from "@/components/ui/slider"
-import { constraintTypes } from "@/lib/sql-config"
-import { previewFakerData } from "@/lib/faker-data-generator"
+import { constraintTypes } from "../lib/sql-config"
+import { previewFakerData } from "../lib/faker-data-generator"
 
 export function TableCreator({ currentTable, setCurrentTable, getCurrentDialect, onSave, isLoading }) {
   const [rowCount, setRowCount] = useState([10])
