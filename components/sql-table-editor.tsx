@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react"
 import { Plus, Play, Database, Table, Eye, Code, Download, RefreshCw } from "lucide-react"
 import { DatabaseSelector } from "./database-selector"
-import { createTable, executeQuery, fetchTables, deleteTableFromDb } from "@/lib/db-operations"
+import { createTable, executeQuery, fetchTables, deleteTableFromDb } from "../lib/db-operations"
 import { dialectConfigs } from "../lib/sql-config"
 import { ConnectionStatus } from "./connection-status"
 import { QueryHistoryPanel } from "./query-history-panel"
