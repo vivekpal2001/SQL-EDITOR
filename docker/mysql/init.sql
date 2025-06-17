@@ -16,7 +16,8 @@ CREATE TABLE IF NOT EXISTS sample_users (
 INSERT INTO sample_users (name, email) VALUES 
 ('John Doe', 'john@example.com'),
 ('Jane Smith', 'jane@example.com'),
-('Bob Johnson', 'bob@example.com');
+('Bob Johnson', 'bob@example.com')
+ON DUPLICATE KEY UPDATE name=VALUES(name);
 
 -- Grant privileges
 GRANT ALL PRIVILEGES ON sqleditor.* TO 'sqluser'@'%';
