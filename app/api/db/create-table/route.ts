@@ -1,6 +1,6 @@
 import { type NextRequest, NextResponse } from "next/server"
-import { getMySQLConnection, getPgConnection } from "@/lib/db-connections"
-import { generateDummyData } from "@/lib/dummy-data-generator"
+import { getMySQLConnection, getPgConnection } from "../../../../lib/db-connections"
+import { generateDummyData } from "../../../../lib/dummy-data-generator"
 
 export async function POST(request: NextRequest) {
   try {

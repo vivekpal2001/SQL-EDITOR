@@ -1,5 +1,5 @@
 import { type NextRequest, NextResponse } from "next/server"
-import { checkMySQLConnection, checkPgConnection } from "@/lib/db-connections"
+import { checkMySQLConnection, checkPgConnection } from "../../../../lib/db-connections"
 
 export async function GET(request: NextRequest) {
   const searchParams = request.nextUrl.searchParams

@@ -1,5 +1,5 @@
 import { type NextRequest, NextResponse } from "next/server"
-import { getMySQLConnection, getPgConnection } from "@/lib/db-connections"
+import { getMySQLConnection, getPgConnection } from "../../../../lib/db-connections"
 
 export async function DELETE(request: NextRequest) {
   try {
